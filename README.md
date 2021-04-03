@@ -24,3 +24,7 @@ docker run -d \
 --net mongo-network \
 --name mongoexpress \
 mongo-express  
+
+minikube win 10
+
+minikube start --vm-driver hyperv --hyperv-virtual-switch "Primary Virtual Switch"      
