@@ -3,11 +3,11 @@
 #commands
 
 
-Remove single container docker container rm CONTAINER
+Remove single container-->  docker container rm CONTAINER
 
-Stop all the containers docker container stop $(docker container ls -aq)
+Stop all the containers--> docker container stop $(docker container ls -aq)
 
-Remove all the containers docker container rm $(docker container ls -aq)
+Remove all the containers--> docker container rm $(docker container ls -aq)
 
 
 
